@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://bootswatch.com/3/cerulean/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="style.css">
+<title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-default">
+        <div class="container" >
+            
+            <div class="navbar-header">
+                <a href="/index.html" class="navbar-brand">THE WORLD</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mydropdown">
+                <ul class="nav navbar-nav">
+                    <li><a href="">Ham</a></li>
+                    <li class="active"><a href="">Ham</a></li>
+                    <li><a href="">Ham</a></li>
+                    <li><a href="">Ham</a></li>
+                </ul>
+                
+                <button class="btn btn-default navbar-btn navbar-right" style="margin-left:10px;">
+                    Inbox <span class="label label-danger">new</span>
+                </button>
+                <button class="btn btn-default navbar-btn navbar-right">
+                    Notification <span class="badge" style="background:rgb(245, 69, 69);">20</span>
+                </button>
+
+                <!-- <button class="btn btn-default navbar-btn navbar-right" style="margin-left: 10px;">Register</button>
+                <button class="btn btn-primary navbar-btn navbar-right">login</button> -->
+            </div>
+        </div>
+    </nav>
+
+    <div class="carousel slide" id="myslider" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myslider" data-slide-to="0" class="active"></li>
+            <li data-target="#myslider" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" >
+            <div class="item active">
+                <img src="https://www.bannerbatterien.com/upload/filecache/Banner-Batterien-Windrder2-web_bd5cb0f721881d106522f6b9cc8f5be6.jpg" alt="" >
+                <div class="carousel-caption"><h2>Welcome to the World</h2></div>
+            </div>
+            <div class="item">
+                <img src="http://www.ethossolutions.com/wp-content/uploads/home-banner-03.jpg" alt="">
+            </div>
+        </div>
+        <a class="right carousel-control" href="#myslider" data-slide="next" role="button">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+        <a class="left carousel-control" href="#myslider" data-slide="prev" aria-hidden="true">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Hello World
+                    </h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque voluptas dolor possimus, et alias amet maiores enim laboriosam repudiandae, ullam culpa, ipsam quos commodi repellat dicta? Porro similique quaerat cum?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- modal POPUP -->
+
+        <div class="modal" id="mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="model-header">
+                        <div class="model-header">
+                            <button class="close" type="button" data-dismiss="model">X</button>
+                            <h2>How to be a good person?</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellendus quo dolorem sapiente ipsum atque dignissimos aliquam quos deleniti reprehenderit commodi nihil ipsa. Inventore repudiandae deleniti, vitae minima vero expedita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!-- END modal -->
+
+        <!-- accordion -->
+
+        <div class="panel-group" id="myaccordion">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" 
+                        data-target="#panel-1"
+                        data-toggle="collapse"
+                        data-parent="#myaccordion">Training 1</h3>
+                    </div>
+                    <div class="panel-collapse collapse" id="panel-1">
+                        <div class="panel-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur praesentium sapiente odit, eligendi temporibus quos labore officia! Magnam earum quos, ducimus corrupti voluptatem sunt eos officia praesentium aut omnis voluptas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" 
+                        data-target="#panel-2"
+                        data-toggle="collapse"
+                        data-parent="#myaccordion">Training 2</h3>
+                    </div>
+                    <div class="panel-collapse collapse" id="panel-2">
+                        <div class="panel-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur praesentium sapiente odit, eligendi temporibus quos labore officia! Magnam earum quos, ducimus corrupti voluptatem sunt eos officia praesentium aut omnis voluptas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" 
+                        data-target="#panel-3"
+                        data-toggle="collapse"
+                        data-parent="#myaccordion">Training 3</h3>
+                    </div>
+                    <div class="panel-collapse collapse" id="panel-3">
+                        <div class="panel-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur praesentium sapiente odit, eligendi temporibus quos labore officia! Magnam earum quos, ducimus corrupti voluptatem sunt eos officia praesentium aut omnis voluptas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- END accordion -->
+
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                    <h1>Hello World
+                    </h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque voluptas dolor possimus, et alias amet maiores enim laboriosam repudiandae, ullam culpa, ipsam quos commodi repellat dicta? Porro similique quaerat cum?</p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <h1>Hello World
+                </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque voluptas dolor possimus, et alias amet maiores enim laboriosam repudiandae, ullam culpa, ipsam quos commodi repellat dicta? Porro similique quaerat cum?</p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <h1>Hello World
+                </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque voluptas dolor possimus, et alias amet maiores enim laboriosam repudiandae, ullam culpa, ipsam quos commodi repellat dicta? Porro similique quaerat cum?</p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <h1>Hello World
+                </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque voluptas dolor possimus, et alias amet maiores enim laboriosam repudiandae, ullam culpa, ipsam quos commodi repellat dicta? Porro similique quaerat cum?</p>
+            </div>
+
+            
+
+            <div class="col-sm-6 col-xs-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Get in Touch</h2>
+                    </div>       
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque voluptas dolor possimus, et alias amet maiores enim laboriosam repudiandae, ullam culpa, ipsam quos commodi repellat dicta? Porro similique quaerat cum?</p>
+                    </div>    
+                    <div class="panel-footer">
+                        <a href="#" 
+                        data-toggle="modal"
+                        data-target="#mymodal"
+                        data-placement="top"
+                        title="More information">More Info...</a>
+                    </div> 
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-xs-12">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" type="text" id="name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" type="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-inline">
+                            <input type="checkbox">
+                            Course A
+                        </label>
+                            
+                        <label class="checkbox-inline">
+                            <input type="checkbox">
+                            Course B
+                        </label>
+                    </div>
+        
+                    <div class="form-group">
+                        <label class="radio-inline">
+                            <input type="radio" name="gender">
+                            male
+                        </label>
+                        
+                        <label class="radio-inline">
+                            <input type="radio" name="gender">
+                            female
+                        </label>                        
+                    </div>
+
+
+                    <input type="submit" value="send" class="btn btn-primary">
+
+                </form>
+                               
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    
+    <script
+        src="https://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    
+    <script>
+        $(".nav li").on("click", function(){
+            $(".nav li").removeClass("active");
+            $(this).addClass("active");
+        });
+    </script>
+
+    <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    <script>
+        $('.carousel').carousel({
+            interval: 2000,
+            wrap:true,
+            keyboard: true
+        })
+    </script>
+
+</body>
+</html>
